@@ -12,7 +12,6 @@
 	Year = {2016}}
 
 @article{RiondatoK15,
-	Abstract = {Betweenness centrality is a fundamental measure in social network analysis, expressing the importance or influence of individual vertices (or edges) in a network in terms of the fraction of shortest paths that pass through them. Since exact computation in large networks is prohibitively expensive, we present two efficient randomized algorithms for betweenness estimation. The algorithms are based on random sampling of shortest paths and offer probabilistic guarantees on the quality of the approximation. The first algorithm estimates the betweenness of all vertices (or edges): all approximate values are within an additive factor \$\${\backslash}varepsilon {\backslash}in (0,1)\$\$ $\epsilon$ ∈ ( 0 , 1 ) from the real values, with probability at least \$\$1-{\backslash}delta \$\$ 1 - $\delta$ . The second algorithm focuses on the top-K vertices (or edges) with highest betweenness and estimate their betweenness value to within a multiplicative factor \$\${\backslash}varepsilon \$\$ $\epsilon$ , with probability at least \$\$1-{\backslash}delta \$\$ 1 - $\delta$ . This is the first algorithm that can compute such approximation for the top-K vertices (or edges). By proving upper and lower bounds to the VC-dimension of a range set associated with the problem at hand, we can bound the sample size needed to achieve the desired approximations. We obtain sample sizes that are independent from the number of vertices in the network and only depend on a characteristic quantity that we call the vertex-diameter, that is the maximum number of vertices in a shortest path. In some cases, the sample size is completely independent from any quantitative property of the graph. An extensive experimental evaluation on real and artificial networks shows that our algorithms are significantly faster and much more scalable as the number of vertices grows than other algorithms with similar approximation guarantees.},
 	Author = {Riondato, Matteo and Kornaropoulos, Evgenios M.},
 	Date-Added = {2016-02-10 16:31:43 +0000},
 	Date-Modified = {2016-09-21 12:21:00 +0000},
@@ -22,6 +21,7 @@
 	Title = {Fast approximation of betweenness centrality through sampling},
 	Volume = {30},
 	Year = {2016},
+	Abstract = {Betweenness centrality is a fundamental measure in social network analysis, expressing the importance or influence of individual vertices (or edges) in a network in terms of the fraction of shortest paths that pass through them. Since exact computation in large networks is prohibitively expensive, we present two efficient randomized algorithms for betweenness estimation. The algorithms are based on random sampling of shortest paths and offer probabilistic guarantees on the quality of the approximation. The first algorithm estimates the betweenness of all vertices (or edges): all approximate values are within an additive factor \$\${\backslash}varepsilon {\backslash}in (0,1)\$\$ $\epsilon$ ∈ ( 0 , 1 ) from the real values, with probability at least \$\$1-{\backslash}delta \$\$ 1 - $\delta$ . The second algorithm focuses on the top-K vertices (or edges) with highest betweenness and estimate their betweenness value to within a multiplicative factor \$\${\backslash}varepsilon \$\$ $\epsilon$ , with probability at least \$\$1-{\backslash}delta \$\$ 1 - $\delta$ . This is the first algorithm that can compute such approximation for the top-K vertices (or edges). By proving upper and lower bounds to the VC-dimension of a range set associated with the problem at hand, we can bound the sample size needed to achieve the desired approximations. We obtain sample sizes that are independent from the number of vertices in the network and only depend on a characteristic quantity that we call the vertex-diameter, that is the maximum number of vertices in a shortest path. In some cases, the sample size is completely independent from any quantitative property of the graph. An extensive experimental evaluation on real and artificial networks shows that our algorithms are significantly faster and much more scalable as the number of vertices grows than other algorithms with similar approximation guarantees.},
 	Bdsk-Url-1 = {http://dx.doi.org/10.1007/s10618-015-0423-0}}
 
 @unpublished{RiondatoU16ext,
@@ -44,8 +44,7 @@
 	Author = {Riondato, Matteo and Upfal, Eli},
 	Booktitle = {Proceedings of the 21st ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
 	Date-Added = {2015-06-05 16:41:33 +0000},
-	Date-Modified = {2016-09-21 13:58:29 +0000},
-	Note = {Extended version available from {\url{http://matteo.rionda.to/papers/RiondatoUpfal-FrequentItemsetsSamplingRademacher-KDD.pdf}}},
+	Date-Modified = {2017-08-09 11:26:35 +0000},
 	Pages = {1005--1014},
 	Publisher = {ACM},
 	Series = {KDD '15},
