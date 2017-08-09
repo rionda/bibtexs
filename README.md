@@ -1,2 +1,3 @@
-# bibtexs
-A repository for my BibTeX files
+# My bibTeX files
+
+A repository for my BibTeX files.
