@@ -1,4 +1,4 @@
-# My bibTeX files
+# My BibTeX files
 
 A repository for my BibTeX files.
 
