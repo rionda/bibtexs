@@ -6,6 +6,7 @@ A repository for my BibTeX files.
 
 * `centrality.bib`: Graph centrality measures, mostly betweenness and closeness.
 * `patterns.bib`: Pattern mining, mostly frequent itemsets and subgroups.
+* `probability.bib`: Probability, especially tail bounds.
 * `riondapubs.bib`: My publications.
 * `statlearn.bib`: Statistical learning theory, mostly VC-dimension and
 	Rademacher averages.
