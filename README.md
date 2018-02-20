@@ -10,4 +10,6 @@ A repository for my BibTeX files.
 * `riondapubs.bib`: My publications.
 * `statlearn.bib`: Statistical learning theory, mostly VC-dimension and
 	Rademacher averages.
+* `triangles.bib`: Counting (approximately) triangles in large graphs, including
+	streams..
 * `misc.bib`: Works that didn't fit in any of the above.
