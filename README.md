@@ -6,11 +6,12 @@ A repository for my BibTeX files.
 
 * `approximatequery.bib`: Approximate query processing in DBMSs.
 * `centrality.bib`: Graph centrality measures, mostly betweenness and closeness.
-* `patterns.bib`: Pattern mining, mostly frequent itemsets and subgroups.
+* `patterns.bib`: Pattern mining, mostly frequent itemsets, frequent sequences,
+	and subgroups.
 * `probability.bib`: Probability, especially tail bounds.
 * `riondapubs.bib`: My publications.
 * `statlearn.bib`: Statistical learning theory, mostly VC-dimension and
 	Rademacher averages.
 * `triangles.bib`: Counting (approximately) triangles in large graphs, including
-	streams..
+	streams.
 * `misc.bib`: Works that didn't fit in any of the above.
