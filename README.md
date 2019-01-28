@@ -6,6 +6,8 @@ A repository for my BibTeX files.
 
 * `approximatequery.bib`: Approximate query processing in DBMSs.
 * `centrality.bib`: Graph centrality measures, mostly betweenness and closeness.
+* `hyptestsigpatt.bib`: Statistical hypothesis testing and significant pattern
+	mining.
 * `patterns.bib`: Pattern mining, mostly frequent itemsets, frequent sequences,
 	and subgroups.
 * `probability.bib`: Probability, especially tail bounds.
