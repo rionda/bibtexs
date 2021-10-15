@@ -1,5 +1,61 @@
 
 
+@inproceedings{CousinsR20,
+	author = {Cousins, Cyrus and Riondato, Matteo},
+	booktitle = {Advances in Neural Information Processing Systems},
+	date-added = {2021-10-15 14:59:22 -0400},
+	date-modified = {2021-10-15 14:59:35 -0400},
+	editor = {Larochelle, H. and Ranzato, M. and Hadsell, R. and Balcan, M. F. and Lin, H.},
+	pages = {15123--15132},
+	publisher = {Curran Associates, Inc.},
+	title = {Sharp uniform convergence bounds through empirical centralization},
+	url = {https://proceedings.neurips.cc/paper/2020/file/ac457ba972fb63b7994befc83f774746-Paper.pdf},
+	volume = {33},
+	year = {2020},
+	bdsk-url-1 = {https://proceedings.neurips.cc/paper/2020/file/ac457ba972fb63b7994befc83f774746-Paper.pdf}}
+
+@article{NasirAMDFMR21,
+	address = {New York, NY, USA},
+	articleno = {48},
+	author = {Nasir, Muhammad Anis Uddin and Aslay, Cigdem and De Francisci Morales, Gianmarco and Riondato, Matteo},
+	date-added = {2021-09-22 13:50:12 -0400},
+	date-modified = {2021-09-22 13:50:53 -0400},
+	doi = {10.1145/3442590},
+	issn = {1556-4681},
+	issue_date = {April 2021},
+	journal = {ACM Trans. Knowl. Discov. Data},
+	keywords = {VC-dimension, Edge streams, graph streams, reservoir sampling, random pairing},
+	month = apr,
+	number = {3},
+	numpages = {35},
+	publisher = {Association for Computing Machinery},
+	title = {{TipTap}: Approximate Mining of Frequent {$k$}-Subgraph Patterns in Evolving Graphs},
+	url = {https://doi.org/10.1145/3442590},
+	volume = {15},
+	year = {2021},
+	abstract = {``Perhaps he could dance first and think afterwards, if it isn't too much to ask him.''S.&nbsp;Beckett,
+Waiting for GodotGiven a labeled graph, the collection of k-vertex induced connected
+subgraph patterns that appear in the graph more frequently than a user-specified minimum
+threshold provides a compact summary of the characteristics of the graph, and finds
+applications ranging from biology to network science. However, finding these patterns
+is challenging, even more so for dynamic graphs that evolve over time, due to the
+streaming nature of the input and the exponential time complexity of the problem.
+We study this task in both incremental and fully-dynamic streaming settings, where
+arbitrary edges can be added or removed from the graph. We present TipTap, a suite
+of algorithms to compute high-quality approximations of the frequent k-vertex subgraphs
+w.r.t.&nbsp;a given threshold, at any time (i.e., point of the stream), with high probability.
+In contrast to existing state-of-the-art solutions that require iterating over the
+entire set of subgraphs in the vicinity of the updated edge, TipTap operates by efficiently
+maintaining a uniform sample of connected k-vertex subgraphs, thanks to an optimized
+neighborhood-exploration procedure. We provide a theoretical analysis of the proposed
+algorithms in terms of their unbiasedness and of the sample size needed to obtain
+a desired approximation quality. Our analysis relies on sample-complexity bounds that
+use Vapnik--Chervonenkis dimension, a key concept from statistical learning theory,
+which allows us to derive a sufficient sample size that is independent from the size
+of the graph. The results of our empirical evaluation demonstrates that TipTap returns
+high-quality results more efficiently and accurately than existing baselines.},
+	bdsk-url-1 = {https://doi.org/10.1145/3442590}}
+
 @inproceedings{HaddadanMRU21,
 	author = {Haddadan, Shahrzad and Menghini, Cristina and Riondato, Matteo and Upfal, Eli},
 	booktitle = {Proceedings of the Fourteenth {ACM} International Conference on Web Search and Data Mining},
@@ -10,7 +66,7 @@
 	series = {WSDM '21},
 	title = {{RePBubLik}: Reducing Polarized Bubble Radius with Link Insertions},
 	year = {2021},
-	Bdsk-Url-1 = {https://doi.org/10.1145/3437963.3441825}}
+	bdsk-url-1 = {https://doi.org/10.1145/3437963.3441825}}
 
 @inproceedings{PretiDFMR21,
 	author = {Preti, Giulia and De Francisci Morales, Gianmarco and Riondato, Matteo},
@@ -32,14 +88,6 @@
 	title = {Betweenness Centrality Approximation with Variance-Aware Rademacher Averages},
 	year = {2021}}
 
-@inproceedings{CousinsR20,
-	author = {Cousins, Cyrus and Riondato, Matteo},
-	booktitle = {Advances in Neural Information Processing Systems},
-	date-added = {2020-10-18 19:12:41 -0400},
-	date-modified = {2020-10-18 19:12:50 -0400},
-	title = {Sharp uniform convergence bounds through empirical centralization},
-	year = {2020}}
-
 @inproceedings{BonchiDFMR16,
 	author = {Bonchi, Francesco and De Francisci Morales, Gianmarco and Riondato, Matteo},
 	booktitle = {Proceedings of the 25th international conference companion on world wide web},
@@ -60,7 +108,7 @@
 	series = {WSDM '16},
 	title = {Wiggins: Detecting Valuable Information in Dynamic Networks Using Limited Resources},
 	year = {2016},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1145/2835776.2835830}}
+	bdsk-url-1 = {http://dx.doi.org/10.1145/2835776.2835830}}
 
 @article{DeStefaniERU17,
 	author = {Stefani, Lorenzo De and Epasto, Alessandro and Riondato, Matteo and Upfal, Eli},
@@ -76,7 +124,7 @@
 	title = {{TRI{\`E}ST}: Counting Local and Global Triangles in Fully-Dynamic Streams with Fixed Memory Size},
 	volume = {11},
 	year = {2017},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1145/3059194}}
+	bdsk-url-1 = {http://dx.doi.org/10.1145/3059194}}
 
 @inproceedings{DeStefaniERU16,
 	author = {De Stefani, Lorenzo and Epasto, Alessandro and Riondato, Matteo and Upfal, Eli},
@@ -90,7 +138,7 @@
 	series = {KDD '16},
 	title = {{TRI{\`E}ST}: Counting Local and Global Triangles in Fully-Dynamic Streams with Fixed Memory Size},
 	year = {2016},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1145/2939672.2939771}}
+	bdsk-url-1 = {http://dx.doi.org/10.1145/2939672.2939771}}
 
 @inproceedings{PellegrinaCVR20,
 	author = {Pellegrina, Leonardo and Cousins, Cyrus and Vandin, Fabio and Riondato, Matteo},
@@ -121,7 +169,7 @@
 	url = {https://doi.org/10.1145/3385653},
 	volume = {14},
 	year = {2020},
-	Bdsk-Url-1 = {https://doi.org/10.1145/3385653}}
+	bdsk-url-1 = {https://doi.org/10.1145/3385653}}
 
 @inproceedings{RiondatoV18,
 	author = {Riondato, Matteo and Vandin, Fabio},
@@ -163,8 +211,8 @@
 	title = {{SPuManTE}: Significant Pattern Mining with Unconditional Testing},
 	url = {http://doi.acm.org/10.1145/3292500.3330978},
 	year = {2019},
-	Bdsk-Url-1 = {http://doi.acm.org/10.1145/3292500.3330978},
-	Bdsk-Url-2 = {https://doi.org/10.1145/3292500.3330978}}
+	bdsk-url-1 = {http://doi.acm.org/10.1145/3292500.3330978},
+	bdsk-url-2 = {https://doi.org/10.1145/3292500.3330978}}
 
 @inproceedings{PellegrinaRV19b,
 	acmid = {3332286},
@@ -184,8 +232,8 @@
 	title = {Hypothesis Testing and Statistically-sound Pattern Mining},
 	url = {http://doi.acm.org/10.1145/3292500.3332286},
 	year = {2019},
-	Bdsk-Url-1 = {http://doi.acm.org/10.1145/3292500.3332286},
-	Bdsk-Url-2 = {https://doi.org/10.1145/3292500.3332286}}
+	bdsk-url-1 = {http://doi.acm.org/10.1145/3292500.3332286},
+	bdsk-url-2 = {https://doi.org/10.1145/3292500.3332286}}
 
 @article{CousinsR19,
 	author = {Cousins, Cyrus and Riondato, Matteo},
@@ -200,7 +248,7 @@
 	url = {https://doi.org/10.1007/s10994-019-05820-3},
 	year = {2019},
 	abstract = {We introduce CaDET, an algorithm for parametric Conditional Density Estimation (CDE) based on decision trees and random forests. CaDET uses the empirical cross entropy impurity criterion for tree growth, which incentivizes splits that improve predictive accuracy more than the regression criteria or estimated mean-integrated-square-error used in previous works. CaDET also admits more efficient training and query procedures than existing tree-based CDE approaches, and stores only a bounded amount of information at each tree leaf, by using sufficient statistics for all computations. Previous tree-based CDE techniques produce complicated uninterpretable distribution objects, whereas CaDET may be instantiated with easily interpretable distribution families, making every part of the model easy to understand. Our experimental evaluation on real datasets shows that CaDET usually learns more accurate, smaller, and more interpretable models, and is less prone to overfitting than existing tree-based CDE approaches.},
-	Bdsk-Url-1 = {https://doi.org/10.1007/s10994-019-05820-3}}
+	bdsk-url-1 = {https://doi.org/10.1007/s10994-019-05820-3}}
 
 @inproceedings{ServanSchreiberRZ18,
 	author = {Servan-Schreiber, Sacha and Riondato, Matteo and Zgraggen, Emanuel},
@@ -233,7 +281,7 @@
 	volume = {30},
 	year = {2016},
 	abstract = {Betweenness centrality is a fundamental measure in social network analysis, expressing the importance or influence of individual vertices (or edges) in a network in terms of the fraction of shortest paths that pass through them. Since exact computation in large networks is prohibitively expensive, we present two efficient randomized algorithms for betweenness estimation. The algorithms are based on random sampling of shortest paths and offer probabilistic guarantees on the quality of the approximation. The first algorithm estimates the betweenness of all vertices (or edges): all approximate values are within an additive factor \$\${\backslash}varepsilon {\backslash}in (0,1)\$\$ $\epsilon$ ∈ ( 0 , 1 ) from the real values, with probability at least \$\$1-{\backslash}delta \$\$ 1 - $\delta$ . The second algorithm focuses on the top-K vertices (or edges) with highest betweenness and estimate their betweenness value to within a multiplicative factor \$\${\backslash}varepsilon \$\$ $\epsilon$ , with probability at least \$\$1-{\backslash}delta \$\$ 1 - $\delta$ . This is the first algorithm that can compute such approximation for the top-K vertices (or edges). By proving upper and lower bounds to the VC-dimension of a range set associated with the problem at hand, we can bound the sample size needed to achieve the desired approximations. We obtain sample sizes that are independent from the number of vertices in the network and only depend on a characteristic quantity that we call the vertex-diameter, that is the maximum number of vertices in a shortest path. In some cases, the sample size is completely independent from any quantitative property of the graph. An extensive experimental evaluation on real and artificial networks shows that our algorithms are significantly faster and much more scalable as the number of vertices grows than other algorithms with similar approximation guarantees.},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1007/s10618-015-0423-0}}
+	bdsk-url-1 = {http://dx.doi.org/10.1007/s10618-015-0423-0}}
 
 @article{RiondatoU18,
 	author = {Riondato, Matteo and Upfal, Eli},
@@ -264,7 +312,7 @@
 	series = {KDD '15},
 	title = {Mining Frequent Itemsets through Progressive Sampling with {R}ademacher Averages},
 	year = {2015},
-	Bdsk-Url-1 = {http://matteo.rionda.to/papers/RiondatoUpfal-FrequentItemsetsSamplingRademacher-KDD.pdf}}
+	bdsk-url-1 = {http://matteo.rionda.to/papers/RiondatoUpfal-FrequentItemsetsSamplingRademacher-KDD.pdf}}
 
 @inproceedings{AnagnostopoulosBFMR15,
 	author = {Anagnostopoulos, Aris and Becchetti, Luca and Fazzone, Adriano and Mele, Ida and Riondato, Matteo},
@@ -280,8 +328,8 @@
 	title = {The Importance of Being Expert: Efficient Max-Finding in Crowdsourcing},
 	url = {http://doi.acm.org/10.1145/2723372.2723722},
 	year = {2015},
-	Bdsk-Url-1 = {http://doi.acm.org/10.1145/2723372.2723722},
-	Bdsk-Url-2 = {http://dx.doi.org/10.1145/2723372.2723722}}
+	bdsk-url-1 = {http://doi.acm.org/10.1145/2723372.2723722},
+	bdsk-url-2 = {http://dx.doi.org/10.1145/2723372.2723722}}
 
 @proceedings{DBLP:conf/sigmod/2015,
 	bibsource = {dblp computer science bibliography, http://dblp.org},
@@ -295,7 +343,7 @@
 	title = {Proceedings of the 2015 {ACM} {SIGMOD} International Conference on Management of Data, Melbourne, Victoria, Australia, May 31 - June 4, 2015},
 	url = {http://dl.acm.org/citation.cfm?id=2723372},
 	year = {2015},
-	Bdsk-Url-1 = {http://dl.acm.org/citation.cfm?id=2723372}}
+	bdsk-url-1 = {http://dl.acm.org/citation.cfm?id=2723372}}
 
 @inproceedings{RiondatoGSB14,
 	author = {Riondato, Matteo and Garcia-Soriano, David and Bonchi, Francesco},
@@ -309,7 +357,7 @@
 	pages = {947--952},
 	title = {Graph Summarization with Quality Guarantees},
 	year = {2014},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1109/ICDM.2014.56}}
+	bdsk-url-1 = {http://dx.doi.org/10.1109/ICDM.2014.56}}
 
 @article{RiondatoU14,
 	author = {Riondato, Matteo and Upfal, Eli},
@@ -326,8 +374,8 @@
 	url = {http://doi.acm.org/10.1145/2629586},
 	volume = {8},
 	year = {2014},
-	Bdsk-Url-1 = {http://doi.acm.org/10.1145/2629586},
-	Bdsk-Url-2 = {http://dx.doi.org/10.1145/2629586}}
+	bdsk-url-1 = {http://doi.acm.org/10.1145/2629586},
+	bdsk-url-2 = {http://dx.doi.org/10.1145/2629586}}
 
 @inproceedings{RiondatoV14,
 	author = {Riondato, Matteo and Vandin, Fabio},
@@ -343,7 +391,7 @@
 	title = {Finding the True Frequent Itemsets},
 	url = {http://dx.doi.org/10.1137/1.9781611973440.57},
 	year = {2014},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1137/1.9781611973440.57}}
+	bdsk-url-1 = {http://dx.doi.org/10.1137/1.9781611973440.57}}
 
 @proceedings{DBLP:conf/sdm/2014,
 	bibsource = {dblp computer science bibliography, http://dblp.org},
@@ -358,7 +406,7 @@
 	title = {Proceedings of the 2014 {SIAM} International Conference on Data Mining, Philadelphia, Pennsylvania, USA, April 24-26, 2014},
 	url = {http://dx.doi.org/10.1137/1.9781611973440},
 	year = {2014},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1137/1.9781611973440}}
+	bdsk-url-1 = {http://dx.doi.org/10.1137/1.9781611973440}}
 
 @inproceedings{Riondato14,
 	author = {Riondato, Matteo},
@@ -374,7 +422,7 @@
 	title = {Sampling-Based Data Mining Algorithms: Modern Techniques and Case Studies},
 	url = {http://dx.doi.org/10.1007/978-3-662-44845-8_48},
 	year = {2014},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1007/978-3-662-44845-8_48}}
+	bdsk-url-1 = {http://dx.doi.org/10.1007/978-3-662-44845-8_48}}
 
 @inproceedings{RiondatoK14,
 	author = {Riondato, Matteo and Kornaropoulos, Evgenios M.},
@@ -578,4 +626,4 @@
 	url = {http://dx.doi.org/10.1007/978-3-662-44845-8},
 	volume = {8726},
 	year = {2014},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1007/978-3-662-44845-8}}
+	bdsk-url-1 = {http://dx.doi.org/10.1007/978-3-662-44845-8}}
