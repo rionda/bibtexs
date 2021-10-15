@@ -1,5 +1,57 @@
 
 
+@article{RiondatoGSB17,
+	author = {Riondato, Matteo and Garc{\'\i}a-Soriano, David and Bonchi, Francesco},
+	date = {2017/03/01},
+	date-added = {2021-10-15 15:20:09 -0400},
+	date-modified = {2021-10-15 15:20:30 -0400},
+	doi = {10.1007/s10618-016-0468-8},
+	isbn = {1573-756X},
+	journal = {Data Mining and Knowledge Discovery},
+	number = {2},
+	pages = {314--349},
+	title = {Graph summarization with quality guarantees},
+	url = {https://doi.org/10.1007/s10618-016-0468-8},
+	volume = {31},
+	year = {2017},
+	abstract = {We study the problem of graph summarization. Given a large graph we aim at producing a concise lossy representation (a summary) that can be stored in main memory and used to approximately answer queries about the original graph much faster than by using the exact representation. In this work we study a very natural type of summary: the original set of vertices is partitioned into a small number of supernodes connected by superedges to form a complete weighted graph. The superedge weights are the edge densities between vertices in the corresponding supernodes. To quantify the dissimilarity between the original graph and a summary, we adopt the reconstruction error and the cut-norm error. By exposing a connection between graph summarization and geometric clustering problems (i.e., k-means and k-median), we develop the first polynomial-time approximation algorithms to compute the best possible summary of a certain size under both measures. We discuss how to use our summaries to store a (lossy or lossless) compressed graph representation and to approximately answer a large class of queries about the original graph, including adjacency, degree, eigenvector centrality, and triangle and subgraph counting. Using the summary to answer queries is very efficient as the running time to compute the answer depends on the number of supernodes in the summary, rather than the number of nodes in the original graph.},
+	bdsk-url-1 = {https://doi.org/10.1007/s10618-016-0468-8}}
+
+@inproceedings{PellegrinaCVR20,
+	address = {New York, NY, USA},
+	author = {Pellegrina, Leonardo and Cousins, Cyrus and Vandin, Fabio and Riondato, Matteo},
+	booktitle = {Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery {\&} Data Mining},
+	date-added = {2021-10-15 15:12:03 -0400},
+	date-modified = {2021-10-15 15:13:00 -0400},
+	doi = {10.1145/3394486.3403267},
+	isbn = {9781450379984},
+	keywords = {statistical learning theory, approximation algorithms},
+	location = {Virtual Event, CA, USA},
+	numpages = {10},
+	pages = {2165--2174},
+	publisher = {Association for Computing Machinery},
+	series = {KDD '20},
+	title = {{MCRapper}: {M}onte-{C}arlo {R}ademacher Averages for Poset Families and Approximate Pattern Mining},
+	url = {https://doi.org/10.1145/3394486.3403267},
+	year = {2020},
+	abstract = {We present MCRapper, an algorithm for efficient computation of Monte-Carlo Empirical
+Rademacher Averages (MCERA) for families of functions exhibiting poset (e.g., lattice)
+structure, such as those that arise in many pattern mining tasks. The MCERA allows
+us to compute upper bounds to the maximum deviation of sample means from their expectations,
+thus it can be used to find both statistically-significant functions (i.e., patterns)
+when the available data is seen as a sample from an unknown distribution, and approximations
+of collections of high-expectation functions (e.g., frequent patterns) when the available
+data is a small sample from a large dataset. This feature is a strong improvement
+over previously proposed solutions that could only achieve one of the two. MCRapper
+uses upper bounds to the discrepancy of the functions to efficiently explore and prune
+the search space, a technique borrowed from pattern mining itself. To show the practical
+use of MCRapper, we employ it to develop an algorithm TFP-R for the task of True Frequent
+Pattern (TFP) mining. TFP-R gives guarantees on the probability of including any false
+positives (precision) and exhibits higher statistical power (recall) than existing
+methods offering the same guarantees. We evaluate MCRapper and TFP-R and show that
+they outperform the state-of-the-art for their respective tasks.},
+	bdsk-url-1 = {https://doi.org/10.1145/3394486.3403267}}
+
 @inproceedings{CousinsR20,
 	author = {Cousins, Cyrus and Riondato, Matteo},
 	booktitle = {Advances in Neural Information Processing Systems},
@@ -139,16 +191,6 @@ high-quality results more efficiently and accurately than existing baselines.},
 	title = {{TRI{\`E}ST}: Counting Local and Global Triangles in Fully-Dynamic Streams with Fixed Memory Size},
 	year = {2016},
 	bdsk-url-1 = {http://dx.doi.org/10.1145/2939672.2939771}}
-
-@inproceedings{PellegrinaCVR20,
-	author = {Pellegrina, Leonardo and Cousins, Cyrus and Vandin, Fabio and Riondato, Matteo},
-	booktitle = {Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
-	date-added = {2020-07-23 08:58:37 -0400},
-	date-modified = {2020-07-23 09:03:46 -0400},
-	publisher = {ACM},
-	series = {KDD '20},
-	title = {{MCRapper}: {M}onte-{C}arlo {R}ademacher Averages for Poset Families and Approximate Pattern Mining},
-	year = {2020}}
 
 @article{RiondatoV20,
 	address = {New York, NY, USA},
