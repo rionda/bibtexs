@@ -1,4 +1,72 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% https://bibdesk.sourceforge.io/
 
+%% Created for Matteo Riondato at 2026-04-24 09:27:58 -0400 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+
+@inproceedings{PretiRGDFM26,
+	abstract = {Social and information networks may become polarized, leading to echo chambers and political gridlock. Accurately measuring this phenomenon is a critical challenge. Existing measures often conflate genuine structural division with random topological features, yielding misleadingly high polarization scores on random networks, and failing to distinguish real-world networks from randomized null models. We introduce DSP, a Diffusion-based Structural Polarization measure designed from first principles to correct for such biases. DSP removes the arbitrary concept of 'influencers' used by the popular Random Walk Controversy (RWC) score, instead treating every node as a potential origin for a random walk. To validate our approach, we introduce a set of desirable properties for polarization measures, expressed through reference topologies with known structural properties. We show that DSP satisfies these desiderata, being near-zero for non-polarized structures such as cliques and random networks, while correctly capturing the expected polarization of reference topologies such as monochromatic-splittable networks. Our method applied to U.S. Congress datasets uncovers trends of increasing polarization in recent years. By integrating a null model into its core definition, DSP provides a reliable and interpretable diagnostic tool, highlighting the necessity of statistically-grounded metrics to analyze societal fragmentation.},
+	address = {New York, NY, USA},
+	author = {Preti, Giulia and Riondato, Matteo and Gionis, Aristides and De Francisci Morales, Gianmarco},
+	booktitle = {Proceedings of the Nineteenth ACM International Conference on Web Search and Data Mining},
+	date-added = {2026-04-24 09:27:23 -0400},
+	date-modified = {2026-04-24 09:27:38 -0400},
+	doi = {10.1145/3773966.3777942},
+	isbn = {9798400722929},
+	keywords = {network science, statistical measure},
+	location = {USA},
+	numpages = {10},
+	pages = {531--540},
+	publisher = {Association for Computing Machinery},
+	series = {WSDM '26},
+	title = {DSP: A Statistically-Principled Structural Polarization Measure},
+	url = {https://doi.org/10.1145/3773966.3777942},
+	year = {2026},
+	bdsk-url-1 = {https://doi.org/10.1145/3773966.3777942}}
+
+@inproceedings{AbuissaR26,
+	abstract = {We present VaLUH, a suite of Markov-Chain-Monte-Carlo algorithms for uniformly sampling non-degenerate, vertex-labeled, undirected hypergraphs with prescribed vertex degrees and hyperedge sizes (the hypergraph micro-canonical configuration model). One of our methods is based on stub-labeled hypergraphs, one on edge-labeled hypergraphs, and the third directly samples vertex-labeled hypergraphs. We theoretically show that our algorithms require as many or fewer steps to converge to the stationary distribution than existing ones, because they are higher in Peskun's order. We obtain this improvement by carefully defining the state space graph of the Markov chains and by optimizing the transition probabilities, using the Metropolis-Hastings approach. Our experimental evaluation on real networks shows that our methods are up to 6x faster, in number of steps and also in wall-clock time, than existing approaches, as they require less computation per step, with the direct algorithm being the fastest.},
+	address = {New York, NY, USA},
+	author = {Abuissa, Maryam and Riondato, Matteo},
+	booktitle = {Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.1},
+	date-added = {2026-04-24 09:25:47 -0400},
+	date-modified = {2026-04-24 09:26:05 -0400},
+	doi = {10.1145/3770854.3780254},
+	isbn = {9798400722585},
+	keywords = {hypothesis testing, markov chain monte carlo, null model},
+	location = {Republic of Korea},
+	numpages = {12},
+	pages = {1--12},
+	publisher = {Association for Computing Machinery},
+	series = {KDD '26},
+	title = {{\textsc{VaLUH}}: Fast Algorithms for the Configuration Model of Vertex-Labeled Undirected Hypergraphs},
+	url = {https://doi.org/10.1145/3770854.3780254},
+	year = {2026},
+	bdsk-url-1 = {https://doi.org/10.1145/3770854.3780254}}
+
+@inproceedings{ContrerasCR26,
+	abstract = {State-of-the-art algorithms for randomizing (or ''null-modeling'') graphs, hypergraphs, binary matrices, and market basket datasets are based on the Curveball trade, a procedure that takes two n-dimensional binary vectors (e.g., 1-hop neighborhood vectors, hyperedges, columns, transactions), and transforms them into two new vectors with the same L1 norm, bitwise-XOR, and bitwise-AND as the original ones. We present HomeRun, an algorithm to perform Curveball trades in an almost-streaming fashion. Previous approaches make multiple passes over the input vectors, and perform other operations with O(n) computational cost@. HomeRun instead performs a single linear scan over the data, and costs less than two passes. We achieve this speedup by framing a Curveball trade as a sampling procedure, and by using reservoir sampling and strict upper bounds to avoid having to compute the population and sample sizes. Our experimental evaluation on real and artificial datasets shows that HomeRun achieves a 2x speedup over existing algorithms.},
+	address = {New York, NY, USA},
+	author = {Contreras-Catalan, Michelle and Riondato, Matteo},
+	booktitle = {Proceedings of the ACM Web Conference 2026},
+	date-added = {2026-04-24 09:24:57 -0400},
+	date-modified = {2026-04-24 09:25:22 -0400},
+	doi = {10.1145/3774904.3792157},
+	isbn = {9798400723070},
+	keywords = {configuration model, network science, switch chain},
+	location = {United Arab Emirates},
+	numpages = {12},
+	pages = {662--673},
+	publisher = {Association for Computing Machinery},
+	series = {WWW '26},
+	title = {{\textsc{HomeRun}}: Performing Curveball Trades quasi in Streaming for Fast Null Modeling of Graphs, Hypergraphs, and Binary Matrices},
+	url = {https://doi.org/10.1145/3774904.3792157},
+	year = {2026},
+	bdsk-url-1 = {https://doi.org/10.1145/3774904.3792157}}
 
 @article{PretiDFMR24b,
 	author = {Preti, Giulia and De Francisci Morales, Gianmarco and Riondato, Matteo},
@@ -57,7 +125,7 @@
 
 @inproceedings{AbuissaRU25,
 	author = {Abuissa, Maryam and Riondato, Matteo and Upfal, Eli},
-	booktitle = {Mach.~Learn.~Knowl.~Disc.~Databases - European Conf., ECML PKDD 2025,  Porto, Portugal, September 15--19, 2025, Proceedings, Part III},
+	booktitle = {Mach.~Learn.~Knowl.~Disc.~Databases - European Conf., ECML PKDD 2025, Porto, Portugal, September 15--19, 2025, Proceedings, Part III},
 	date-added = {2025-08-06 09:27:04 -0400},
 	date-modified = {2025-10-09 10:09:26 -0400},
 	pages = {57--73},
@@ -65,6 +133,7 @@
 	year = {2025}}
 
 @article{AbuissaLR23,
+	abstract = {We introduce a novel class of null models for the statistical validation of results obtained from binary transactional and sequence datasets. Our null models are Row-Order Agnostic (ROA), i.e., do not consider the order of rows in the observed dataset to be fixed, in stark contrast with previous null models, which are Row-Order Enforcing (ROE). We present ROhAN, an algorithmic framework for efficiently sampling datasets from ROA models according to user-specified distributions, which is a necessary step for the resampling-based statistical hypothesis tests employed to validate the results. ROhAN uses Metropolis-Hastings or rejection sampling to build on top of existing or future ROE sampling procedures. Our experimental evaluation shows that ROA models are very different from ROE ones, impacting the statistical validation, and that ROhAN is efficient, mixes fast, and scales well as the dataset grows.},
 	author = {Abuissa, Maryam and Lee, Alexander and Riondato, Matteo},
 	date-added = {2023-09-23 14:51:18 -0400},
 	date-modified = {2023-09-23 14:52:45 -0400},
@@ -79,7 +148,6 @@
 	url = {https://link.springer.com/content/pdf/10.1007/s10618-023-00938-4.pdf},
 	volume = {37},
 	year = {2023},
-	abstract = {We introduce a novel class of null models for the statistical validation of results obtained from binary transactional and sequence datasets. Our null models are Row-Order Agnostic (ROA), i.e., do not consider the order of rows in the observed dataset to be fixed, in stark contrast with previous null models, which are Row-Order Enforcing (ROE). We present ROhAN, an algorithmic framework for efficiently sampling datasets from ROA models according to user-specified distributions, which is a necessary step for the resampling-based statistical hypothesis tests employed to validate the results. ROhAN uses Metropolis-Hastings or rejection sampling to build on top of existing or future ROE sampling procedures. Our experimental evaluation shows that ROA models are very different from ROE ones, impacting the statistical validation, and that ROhAN is efficient, mixes fast, and scales well as the dataset grows.},
 	bdsk-url-1 = {https://link.springer.com/content/pdf/10.1007/s10618-023-00938-4.pdf},
 	bdsk-url-2 = {https://doi.org/10.1007/s10618-023-00938-4}}
 
@@ -156,22 +224,6 @@
 	year = {2022}}
 
 @inproceedings{PellegrinaCVR20,
-	address = {New York, NY, USA},
-	author = {Pellegrina, Leonardo and Cousins, Cyrus and Vandin, Fabio and Riondato, Matteo},
-	booktitle = {Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery {\&} Data Mining},
-	date-added = {2022-05-10 16:17:18 -0400},
-	date-modified = {2022-05-10 16:17:18 -0400},
-	doi = {10.1145/3394486.3403267},
-	isbn = {9781450379984},
-	keywords = {statistical learning theory, approximation algorithms},
-	location = {Virtual Event, CA, USA},
-	numpages = {10},
-	pages = {2165--2174},
-	publisher = {Association for Computing Machinery},
-	series = {KDD '20},
-	title = {{MCRapper}: {M}onte-{C}arlo {R}ademacher Averages for Poset Families and Approximate Pattern Mining},
-	url = {https://doi.org/10.1145/3394486.3403267},
-	year = {2020},
 	abstract = {We present MCRapper, an algorithm for efficient computation of Monte-Carlo Empirical
 Rademacher Averages (MCERA) for families of functions exhibiting poset (e.g., lattice)
 structure, such as those that arise in many pattern mining tasks. The MCERA allows
@@ -188,6 +240,22 @@ Pattern (TFP) mining. TFP-R gives guarantees on the probability of including any
 positives (precision) and exhibits higher statistical power (recall) than existing
 methods offering the same guarantees. We evaluate MCRapper and TFP-R and show that
 they outperform the state-of-the-art for their respective tasks.},
+	address = {New York, NY, USA},
+	author = {Pellegrina, Leonardo and Cousins, Cyrus and Vandin, Fabio and Riondato, Matteo},
+	booktitle = {Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery {\&} Data Mining},
+	date-added = {2022-05-10 16:17:18 -0400},
+	date-modified = {2022-05-10 16:17:18 -0400},
+	doi = {10.1145/3394486.3403267},
+	isbn = {9781450379984},
+	keywords = {statistical learning theory, approximation algorithms},
+	location = {Virtual Event, CA, USA},
+	numpages = {10},
+	pages = {2165--2174},
+	publisher = {Association for Computing Machinery},
+	series = {KDD '20},
+	title = {{MCRapper}: {M}onte-{C}arlo {R}ademacher Averages for Poset Families and Approximate Pattern Mining},
+	url = {https://doi.org/10.1145/3394486.3403267},
+	year = {2020},
 	bdsk-url-1 = {https://doi.org/10.1145/3394486.3403267}}
 
 @inproceedings{LeeWGZR22,
@@ -200,6 +268,7 @@ they outperform the state-of-the-art for their respective tasks.},
 	year = {2022}}
 
 @article{RiondatoGSB17,
+	abstract = {We study the problem of graph summarization. Given a large graph we aim at producing a concise lossy representation (a summary) that can be stored in main memory and used to approximately answer queries about the original graph much faster than by using the exact representation. In this work we study a very natural type of summary: the original set of vertices is partitioned into a small number of supernodes connected by superedges to form a complete weighted graph. The superedge weights are the edge densities between vertices in the corresponding supernodes. To quantify the dissimilarity between the original graph and a summary, we adopt the reconstruction error and the cut-norm error. By exposing a connection between graph summarization and geometric clustering problems (i.e., k-means and k-median), we develop the first polynomial-time approximation algorithms to compute the best possible summary of a certain size under both measures. We discuss how to use our summaries to store a (lossy or lossless) compressed graph representation and to approximately answer a large class of queries about the original graph, including adjacency, degree, eigenvector centrality, and triangle and subgraph counting. Using the summary to answer queries is very efficient as the running time to compute the answer depends on the number of supernodes in the summary, rather than the number of nodes in the original graph.},
 	author = {Riondato, Matteo and Garc{\'\i}a-Soriano, David and Bonchi, Francesco},
 	date = {2017/03/01},
 	date-added = {2021-10-15 15:20:09 -0400},
@@ -213,16 +282,9 @@ they outperform the state-of-the-art for their respective tasks.},
 	url = {https://doi.org/10.1007/s10618-016-0468-8},
 	volume = {31},
 	year = {2017},
-	abstract = {We study the problem of graph summarization. Given a large graph we aim at producing a concise lossy representation (a summary) that can be stored in main memory and used to approximately answer queries about the original graph much faster than by using the exact representation. In this work we study a very natural type of summary: the original set of vertices is partitioned into a small number of supernodes connected by superedges to form a complete weighted graph. The superedge weights are the edge densities between vertices in the corresponding supernodes. To quantify the dissimilarity between the original graph and a summary, we adopt the reconstruction error and the cut-norm error. By exposing a connection between graph summarization and geometric clustering problems (i.e., k-means and k-median), we develop the first polynomial-time approximation algorithms to compute the best possible summary of a certain size under both measures. We discuss how to use our summaries to store a (lossy or lossless) compressed graph representation and to approximately answer a large class of queries about the original graph, including adjacency, degree, eigenvector centrality, and triangle and subgraph counting. Using the summary to answer queries is very efficient as the running time to compute the answer depends on the number of supernodes in the summary, rather than the number of nodes in the original graph.},
 	bdsk-url-1 = {https://doi.org/10.1007/s10618-016-0468-8}}
 
 @article{PellegrinaCVR22,
-	author = {Pellegrina, Leonardo and Cousins, Cyrus and Vandin, Fabio and Riondato, Matteo},
-	date-added = {2021-10-15 15:12:03 -0400},
-	date-modified = {2022-05-10 16:18:10 -0400},
-	journal = {ACM Transactions on Knowledge Discovery from Data},
-	title = {{MCRapper}: {M}onte-{C}arlo {R}ademacher Averages for Poset Families and Approximate Pattern Mining},
-	year = {2022},
 	abstract = {We present MCRapper, an algorithm for efficient computation of Monte-Carlo Empirical
 Rademacher Averages (MCERA) for families of functions exhibiting poset (e.g., lattice)
 structure, such as those that arise in many pattern mining tasks. The MCERA allows
@@ -238,7 +300,13 @@ use of MCRapper, we employ it to develop an algorithm TFP-R for the task of True
 Pattern (TFP) mining. TFP-R gives guarantees on the probability of including any false
 positives (precision) and exhibits higher statistical power (recall) than existing
 methods offering the same guarantees. We evaluate MCRapper and TFP-R and show that
-they outperform the state-of-the-art for their respective tasks.}}
+they outperform the state-of-the-art for their respective tasks.},
+	author = {Pellegrina, Leonardo and Cousins, Cyrus and Vandin, Fabio and Riondato, Matteo},
+	date-added = {2021-10-15 15:12:03 -0400},
+	date-modified = {2022-05-10 16:18:10 -0400},
+	journal = {ACM Transactions on Knowledge Discovery from Data},
+	title = {{MCRapper}: {M}onte-{C}arlo {R}ademacher Averages for Poset Families and Approximate Pattern Mining},
+	year = {2022}}
 
 @inproceedings{CousinsR20,
 	author = {Cousins, Cyrus and Riondato, Matteo},
@@ -255,24 +323,6 @@ they outperform the state-of-the-art for their respective tasks.}}
 	bdsk-url-1 = {https://proceedings.neurips.cc/paper/2020/file/ac457ba972fb63b7994befc83f774746-Paper.pdf}}
 
 @article{NasirAMDFMR21,
-	address = {New York, NY, USA},
-	articleno = {48},
-	author = {Nasir, Muhammad Anis Uddin and Aslay, Cigdem and De Francisci Morales, Gianmarco and Riondato, Matteo},
-	date-added = {2021-09-22 13:50:12 -0400},
-	date-modified = {2021-09-22 13:50:53 -0400},
-	doi = {10.1145/3442590},
-	issn = {1556-4681},
-	issue_date = {April 2021},
-	journal = {ACM Trans. Knowl. Discov. Data},
-	keywords = {VC-dimension, Edge streams, graph streams, reservoir sampling, random pairing},
-	month = apr,
-	number = {3},
-	numpages = {35},
-	publisher = {Association for Computing Machinery},
-	title = {{TipTap}: Approximate Mining of Frequent {$k$}-Subgraph Patterns in Evolving Graphs},
-	url = {https://doi.org/10.1145/3442590},
-	volume = {15},
-	year = {2021},
 	abstract = {``Perhaps he could dance first and think afterwards, if it isn't too much to ask him.''S.&nbsp;Beckett,
 Waiting for GodotGiven a labeled graph, the collection of k-vertex induced connected
 subgraph patterns that appear in the graph more frequently than a user-specified minimum
@@ -294,6 +344,24 @@ use Vapnik--Chervonenkis dimension, a key concept from statistical learning theo
 which allows us to derive a sufficient sample size that is independent from the size
 of the graph. The results of our empirical evaluation demonstrates that TipTap returns
 high-quality results more efficiently and accurately than existing baselines.},
+	address = {New York, NY, USA},
+	articleno = {48},
+	author = {Nasir, Muhammad Anis Uddin and Aslay, Cigdem and De Francisci Morales, Gianmarco and Riondato, Matteo},
+	date-added = {2021-09-22 13:50:12 -0400},
+	date-modified = {2021-09-22 13:50:53 -0400},
+	doi = {10.1145/3442590},
+	issn = {1556-4681},
+	issue_date = {April 2021},
+	journal = {ACM Trans. Knowl. Discov. Data},
+	keywords = {VC-dimension, Edge streams, graph streams, reservoir sampling, random pairing},
+	month = apr,
+	number = {3},
+	numpages = {35},
+	publisher = {Association for Computing Machinery},
+	title = {{TipTap}: Approximate Mining of Frequent {$k$}-Subgraph Patterns in Evolving Graphs},
+	url = {https://doi.org/10.1145/3442590},
+	volume = {15},
+	year = {2021},
 	bdsk-url-1 = {https://doi.org/10.1145/3442590}}
 
 @inproceedings{HaddadanMRU21,
@@ -469,6 +537,7 @@ high-quality results more efficiently and accurately than existing baselines.},
 	bdsk-url-2 = {https://doi.org/10.1145/3292500.3332286}}
 
 @article{CousinsR19,
+	abstract = {We introduce CaDET, an algorithm for parametric Conditional Density Estimation (CDE) based on decision trees and random forests. CaDET uses the empirical cross entropy impurity criterion for tree growth, which incentivizes splits that improve predictive accuracy more than the regression criteria or estimated mean-integrated-square-error used in previous works. CaDET also admits more efficient training and query procedures than existing tree-based CDE approaches, and stores only a bounded amount of information at each tree leaf, by using sufficient statistics for all computations. Previous tree-based CDE techniques produce complicated uninterpretable distribution objects, whereas CaDET may be instantiated with easily interpretable distribution families, making every part of the model easy to understand. Our experimental evaluation on real datasets shows that CaDET usually learns more accurate, smaller, and more interpretable models, and is less prone to overfitting than existing tree-based CDE approaches.},
 	author = {Cousins, Cyrus and Riondato, Matteo},
 	date-added = {2019-07-30 13:28:56 -0400},
 	date-modified = {2021-10-18 13:30:00 -0400},
@@ -482,7 +551,6 @@ high-quality results more efficiently and accurately than existing baselines.},
 	url = {https://doi.org/10.1007/s10994-019-05820-3},
 	volume = {108},
 	year = {2019},
-	abstract = {We introduce CaDET, an algorithm for parametric Conditional Density Estimation (CDE) based on decision trees and random forests. CaDET uses the empirical cross entropy impurity criterion for tree growth, which incentivizes splits that improve predictive accuracy more than the regression criteria or estimated mean-integrated-square-error used in previous works. CaDET also admits more efficient training and query procedures than existing tree-based CDE approaches, and stores only a bounded amount of information at each tree leaf, by using sufficient statistics for all computations. Previous tree-based CDE techniques produce complicated uninterpretable distribution objects, whereas CaDET may be instantiated with easily interpretable distribution families, making every part of the model easy to understand. Our experimental evaluation on real datasets shows that CaDET usually learns more accurate, smaller, and more interpretable models, and is less prone to overfitting than existing tree-based CDE approaches.},
 	bdsk-url-1 = {https://doi.org/10.1007/s10994-019-05820-3}}
 
 @inproceedings{ServanSchreiberRZ18,
@@ -506,6 +574,7 @@ high-quality results more efficiently and accurately than existing baselines.},
 	year = {2016}}
 
 @article{RiondatoK15,
+	abstract = {Betweenness centrality is a fundamental measure in social network analysis, expressing the importance or influence of individual vertices (or edges) in a network in terms of the fraction of shortest paths that pass through them. Since exact computation in large networks is prohibitively expensive, we present two efficient randomized algorithms for betweenness estimation. The algorithms are based on random sampling of shortest paths and offer probabilistic guarantees on the quality of the approximation. The first algorithm estimates the betweenness of all vertices (or edges): all approximate values are within an additive factor \$\${\backslash}varepsilon {\backslash}in (0,1)\$\$ $\epsilon$ ∈ ( 0 , 1 ) from the real values, with probability at least \$\$1-{\backslash}delta \$\$ 1 - $\delta$ . The second algorithm focuses on the top-K vertices (or edges) with highest betweenness and estimate their betweenness value to within a multiplicative factor \$\${\backslash}varepsilon \$\$ $\epsilon$ , with probability at least \$\$1-{\backslash}delta \$\$ 1 - $\delta$ . This is the first algorithm that can compute such approximation for the top-K vertices (or edges). By proving upper and lower bounds to the VC-dimension of a range set associated with the problem at hand, we can bound the sample size needed to achieve the desired approximations. We obtain sample sizes that are independent from the number of vertices in the network and only depend on a characteristic quantity that we call the vertex-diameter, that is the maximum number of vertices in a shortest path. In some cases, the sample size is completely independent from any quantitative property of the graph. An extensive experimental evaluation on real and artificial networks shows that our algorithms are significantly faster and much more scalable as the number of vertices grows than other algorithms with similar approximation guarantees.},
 	author = {Riondato, Matteo and Kornaropoulos, Evgenios M.},
 	date-added = {2016-02-10 16:31:43 +0000},
 	date-modified = {2016-09-21 12:21:00 +0000},
@@ -515,7 +584,6 @@ high-quality results more efficiently and accurately than existing baselines.},
 	title = {Fast approximation of betweenness centrality through sampling},
 	volume = {30},
 	year = {2016},
-	abstract = {Betweenness centrality is a fundamental measure in social network analysis, expressing the importance or influence of individual vertices (or edges) in a network in terms of the fraction of shortest paths that pass through them. Since exact computation in large networks is prohibitively expensive, we present two efficient randomized algorithms for betweenness estimation. The algorithms are based on random sampling of shortest paths and offer probabilistic guarantees on the quality of the approximation. The first algorithm estimates the betweenness of all vertices (or edges): all approximate values are within an additive factor \$\${\backslash}varepsilon {\backslash}in (0,1)\$\$ $\epsilon$ ∈ ( 0 , 1 ) from the real values, with probability at least \$\$1-{\backslash}delta \$\$ 1 - $\delta$ . The second algorithm focuses on the top-K vertices (or edges) with highest betweenness and estimate their betweenness value to within a multiplicative factor \$\${\backslash}varepsilon \$\$ $\epsilon$ , with probability at least \$\$1-{\backslash}delta \$\$ 1 - $\delta$ . This is the first algorithm that can compute such approximation for the top-K vertices (or edges). By proving upper and lower bounds to the VC-dimension of a range set associated with the problem at hand, we can bound the sample size needed to achieve the desired approximations. We obtain sample sizes that are independent from the number of vertices in the network and only depend on a characteristic quantity that we call the vertex-diameter, that is the maximum number of vertices in a shortest path. In some cases, the sample size is completely independent from any quantitative property of the graph. An extensive experimental evaluation on real and artificial networks shows that our algorithms are significantly faster and much more scalable as the number of vertices grows than other algorithms with similar approximation guarantees.},
 	bdsk-url-1 = {http://dx.doi.org/10.1007/s10618-015-0423-0}}
 
 @article{RiondatoU18,
